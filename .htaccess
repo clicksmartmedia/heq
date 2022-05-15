@@ -1,0 +1,36 @@
+RewriteEngine on
+
+RewriteRule ^home$ index.php
+RewriteRule ^q2$ q2.php
+RewriteRule ^q3$ q3.php
+RewriteRule ^q4$ q4.php
+RewriteRule ^q4-2$ q4_2.php
+RewriteRule ^q30$ q30.php
+RewriteRule ^q5$ q5.php
+RewriteRule ^q6$ q6.php
+RewriteRule ^q7$ q7.php
+RewriteRule ^q8$ q8.php
+RewriteRule ^q9$ q9.php
+RewriteRule ^q10$ q10.php
+RewriteRule ^q11$ q11.php
+RewriteRule ^q12$ q12.php
+RewriteRule ^q13$ q13.php
+RewriteRule ^q14$ q14.php
+RewriteRule ^q14-2$ q14_2.php
+RewriteRule ^q14-3$ q14_3.php
+RewriteRule ^q15$ q15.php
+RewriteRule ^q16$ q16.php
+RewriteRule ^q17$ q17.php
+RewriteRule ^q18$ q18.php
+RewriteRule ^q19$ q19.php
+RewriteRule ^q20$ q20.php
+RewriteRule ^q21$ q21.php
+RewriteRule ^q22$ q22.php
+RewriteRule ^q23$ q23.php
+RewriteRule ^q24$ q24.php
+RewriteRule ^q25$ q25.php
+RewriteRule ^q26$ q26.php
+RewriteRule ^q27$ q27.php
+RewriteRule ^q28$ q28.php
+RewriteRule ^q29$ q29.php
+RewriteRule ^q30$ q30.php

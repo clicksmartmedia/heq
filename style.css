@@ -1,0 +1,292 @@
+body #main-header {
+    width: auto;
+}
+
+#main-header {
+    line-height: 1;
+}
+
+#OPTIN_DISCLOSURE {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.address-sub-label {
+    font-size: 16px;
+    display: block;
+    line-height: 1.3em;
+}
+
+#ADDRESS_SOUTH_TEXT,
+#EMAIL_SOUTH_TEXT {
+    display: none;
+}
+
+body #PERSONAL_FIELD_GROUP .field-label-pair {
+    margin-bottom: 20px;
+}
+
+body #FIELD-LABEL-PRI_PHONE.input-label {
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+}
+
+body .error-label {
+    color: #C00;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+body fieldset div .mb0 {
+    margin-bottom: 0;
+}
+
+.last-slide-cta {
+    margin-top: 50px !important;
+}
+
+@media screen and (max-width: 767px) {
+    #OPTIN_DISCLOSURE {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    body #DEMOGRAPHIC_FIELD_GROUP #DEMOGRAPHIC_FIELD_GROUP_FORM_GROUP_ADDRESS_FIELD_LABEL_PAIR {
+        margin-bottom: 20px;
+    }
+
+    body #PRI_PHONE-p3 {
+        width: 37%;
+    }
+
+    #container-outer-header-DEMOGRAPHIC h3 {
+        font-size: 22px;
+    }
+
+    body #container-outer-header-DEMOGRAPHIC h3 .address-sub-label,
+    body .address-sub-label {
+        font-size: 14px;
+    }
+
+    body .last-slide-cta {
+        margin-top: 40px !important;
+    }
+
+
+}
+
+.loader-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #E8FFDF;
+    z-index: 2;
+}
+
+/* Absolute Center Spinner */
+.loading {
+    z-index: 999;
+    height: 2em;
+    width: 2em;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+/* Transparent Overlay */
+.loading:before {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* :not(:required) hides these rules from IE9 and below */
+.loading:not(:required) {
+    /* hide "loading..." text */
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+
+.loading:not(:required):after {
+    content: '';
+    display: block;
+    font-size: 10px;
+    width: 1em;
+    height: 1em;
+    margin-top: -0.5em;
+    -webkit-animation: spinner 1500ms infinite linear;
+    -moz-animation: spinner 1500ms infinite linear;
+    -ms-animation: spinner 1500ms infinite linear;
+    -o-animation: spinner 1500ms infinite linear;
+    animation: spinner 1500ms infinite linear;
+    border-radius: 0.5em;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.5) -1.5em 0 0 0, rgba(0, 0, 0, 0.5) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+    box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) -1.5em 0 0 0, rgba(0, 0, 0, 0.75) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+}
+
+/* Animation */
+
+@-webkit-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+#main-header {
+    font-size: 30px;
+}
+
+medium {
+    display: block;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #000;
+}
+
+@media only screen and (max-width: 767px) {
+    #main-header {
+        font-size: 22px;
+    }
+
+    medium {
+        font-size: 13px;
+        line-height: 16px;
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-top: 5px;
+    }
+
+
+    .line-break-mobi {
+        display: block
+    }
+}
+
+#BUY_TIMEFRAME_INNER_GROUP .green-btn {
+    max-width: 450px;
+    font-size: 20px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 767px) {
+    #container-outer-header-HI_GROUP h3 {
+        font-size: 20px;
+    }
+
+    #container-outer-header-BUY_TIMEFRAME h3 {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+
+    #BUY_TIMEFRAME_INNER_GROUP .green-btn {
+        font-size: 17px;
+        line-height: 42px;
+    }
+
+    #BUY_TIMEFRAME_INNER_GROUP .mb20 {
+        margin-bottom: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #container-outer-header-BUY_TIMEFRAME h3 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    #BUY_TIMEFRAME_INNER_GROUP .green-btn {
+        font-size: 14px;
+        line-height: 42px;
+    }
+}
+
+#SPEC_HOME_FIELD_GROUP_FORM_GROUP {
+    z-index: 5;
+}
+
+.loader-bg {
+    max-height: none;
+    max-width: none;
+}
